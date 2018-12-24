@@ -5,6 +5,8 @@ var port = process.env.PORT || 8080;
 
 http.createServer(function(req, res) {
     var url = './' + (req.url == '/' ? 'index.html' : req.url)
+    console.log('URL', url);
+    console.log('req.url', req.url);
     fs.readFile(req.url, function(err, html) {
         if (err) {
             var message404 = "There is no such page! <a href='/'>Back to home page</a>"
