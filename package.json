@@ -1,5 +1,5 @@
 {
-  "name": "fizy-timeline-ui",
+  "name": "yunus",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://EXT02D11052@stash.turkcell.com.tr/git/scm/turkcellfizyplatform/fizy-timeline-ui.git"
+    "url": "https://github.com/yunusinwien/yunus.git"
   },
   "author": "",
   "license": "ISC"
