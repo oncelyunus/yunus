@@ -1,0 +1,19 @@
+{
+  "name": "fizy-timeline-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://EXT02D11052@stash.turkcell.com.tr/git/scm/turkcellfizyplatform/fizy-timeline-ui.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
