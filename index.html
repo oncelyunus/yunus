@@ -66,6 +66,8 @@
 
     <script>
     var language = navigator.language || navigator.userLanguage;
+    alert(navigator.language);
+    alert(navigator.userLanguage);
     if(language == 'tr'){
         window.location.href = "tr.html"
     }else if(language == 'en'){
@@ -77,7 +79,7 @@
     }else if(language == 'ru'){
         window.location.href = "ru.html"
     }else{
-        window.location.href = "en.html"
+        window.location.href = "tr.html"
     }
     </script>
 	</div>
