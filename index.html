@@ -66,16 +66,15 @@
 
     <script>
     var language = navigator.language || navigator.userLanguage;
-    debugger;
-    if(language == 'tr'){
+    if(language.toLowerCase().indexOf('tr') === 0 ) {
         window.location.href = "tr.html"
-    }else if(language == 'en'){
+    }else if(language.toLowerCase().indexOf('en') === 0){
         window.location.href = "en.html"
-    }else if(language == 'de'){
+    }else if(language.toLowerCase().indexOf('de') === 0){
         window.location.href = "de.html"
-    }else if(language == 'uk'){
+    }else if(language.toLowerCase().indexOf('uk') === 0){
         window.location.href = "uk.html"
-    }else if(language == 'ru'){
+    }else if(language.toLowerCase().indexOf('ru') === 0){
         window.location.href = "ru.html"
     }else{
         window.location.href = "tr.html"
