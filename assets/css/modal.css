@@ -96,10 +96,15 @@ button.open-in-app {
     z-index: 100;
     background: rgba(0, 0, 0, 0.8);
   }
-
+.webmodal .link-group {
+    display: flex;
+    justify-content: space-between;
+}
   .webmodal .link-group a {
     max-width: 200px;
     background: #000;
+    width: 48%;
+    border-radius: 5px;
   }
 
   .webmodal-inner {
@@ -142,7 +147,9 @@ button.open-in-app {
     width: 90%;
     color: #000;
   }
-
+.webmodal .close::before, .webmodal .close::after {
+    background: black;
+}
 
 
 /*
