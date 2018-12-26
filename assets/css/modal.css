@@ -139,16 +139,17 @@ button.open-in-app {
   }
 
 
-  /*
+
+/*
 styles for adnroid
 */
 @media (max-width: 769px) {
-    html:lang(ru) .Android .select2-container--fizy .select2-selection--single .select2-selection__rendered,
-    html:lang(uk) .Android .select2-container--fizy .select2-selection--single .select2-selection__rendered {
+    .Android .select2-container--fizy .select2-selection--single .select2-selection__rendered,
+    .Android .select2-container--fizy .select2-selection--single .select2-selection__rendered {
         overflow: visible;
     }
-    html:lang(ru) .Android .select2-container--fizy .select2-selection--single .select2-selection__arrow,
-    html:lang(en) .Android .select2-container--fizy .select2-selection--single .select2-selection__arrow {
+    .Android .select2-container--fizy .select2-selection--single .select2-selection__arrow,
+    .Android .select2-container--fizy .select2-selection--single .select2-selection__arrow {
         right: -4px;
     }
 }
