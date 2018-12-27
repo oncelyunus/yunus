@@ -151,6 +151,10 @@ button.open-in-app {
     background: black;
 }
 
+.webmodal-btn-close.close {
+    position: absolute;
+}
+
 
 /*
 styles for adnroid
